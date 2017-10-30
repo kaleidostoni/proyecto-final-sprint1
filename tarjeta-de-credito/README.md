@@ -33,4 +33,6 @@ El usuario no debe poder ingresar un campo vacío
   6.4 de los contrario en el else retornara "is not valid"
 
 ## Diagrama de flujo
-![]()
+
+![diagrama-de-flujo](http://subefotos.com/ver/?283d4902a9974c9b5b6159a736b06547o.png
+)
