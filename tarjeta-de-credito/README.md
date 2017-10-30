@@ -34,5 +34,4 @@ El usuario no debe poder ingresar un campo vacío
 
 ## Diagrama de flujo
 
-![diagrama-de-flujo](http://subefotos.com/ver/?283d4902a9974c9b5b6159a736b06547o.png
-)
+![diagrama-de-flujo](https://ibb.co/eZVhLm)
