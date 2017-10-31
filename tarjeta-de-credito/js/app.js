@@ -54,4 +54,4 @@ var reversedNumber =cardNumber.reverse();
        }
      }
 
- turningToOneDigit(arrayNumbersFiltered);
+ turningToOneDigit(pairsBiggerThanFour(reversedNumber));
