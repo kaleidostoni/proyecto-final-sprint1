@@ -34,4 +34,4 @@ El usuario no debe poder ingresar un campo vacío
 
 ## Diagrama de flujo
 
-![diagrama-de-flujo](https://ibb.co/eZVhLm)
+![diagrama-de-flujo](diagrama-de-flujo.png);
