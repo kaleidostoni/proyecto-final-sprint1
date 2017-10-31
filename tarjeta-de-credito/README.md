@@ -34,4 +34,4 @@ El usuario no debe poder ingresar un campo vacío
 
 ## Diagrama de flujo
 
-![diagrama-de-flujo](diagrama-de-flujo.png);
+![diagrama-de-flujo](https://www.lucidchart.com/publicSegments/view/8e2e96ff-d35e-4296-a34a-c03beda443ce/image.png);

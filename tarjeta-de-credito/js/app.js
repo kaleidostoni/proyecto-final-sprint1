@@ -4,22 +4,26 @@ var reversedNumber =cardNumber.reverse();
 /* creando una funcion que separe los numeros que se encuentren en
  index non de los que se encuentran en index par (menores a 4)*/
 
+ /*declaramos la variable suma1 donde se sumaran los numeros que filtre
+ el for*/
+
+ // declaramos la var suma2 donde se suman los numeros que filtra for
+ //sumamos los dos sumas en la variable totalSum
 
  var lunhAlgoritm = function(array){
-/*declaramos la variable suma1 donde se sumaran los numeros que filtre
-el for*/
-  var suma1 = 0;
-  for (var i=0; i<array.length; i= i+2){
-    suma1+=array[i];
+   var suma1 = 0;
+   for (var i=0; i<array.length; i= i+2){
+     suma1+=array[i];
     }
-    // declaramos la var suma2 donde se suman los numeros que filtra for
     var suma2 = 0;
     for (var j=1; j<array.length; j= j+2){
       if(array[j] < 4){
         suma2+=array[j]*2;
-    }
+      }
+    }var totalSum = suma1 + suma2;
+  return totalSum;
   }
-
+//llamando a la función lunnAlgoritm
   lunhAlgoritm(reversedNumber);
 
   /*haciendo una funcion  pairsOneDigit que reuna  con . push en un array
