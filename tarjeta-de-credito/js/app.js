@@ -26,13 +26,12 @@ el for*/
    los numeros en index par mayores a 4*/
 
   var pairsBiggerThanFour = function(array){
-  var arrayNumbersFiltered = [];
-  for(var k = 1; k < array.length; k = k+2){
-    if(array[k] >4){
-      arrayNumbersFiltered.push(array[k]);
+    var arrayNumbersFiltered = [];
+    for(var k = 1; k < array.length; k = k+2){
+      if(array[k] >4){
+        arrayNumbersFiltered.push(array[k] *2);
       }
-    }
-
+    }return arrayNumbersFiltered;
   }
 
   pairsBiggerThanFour(reversedNumber);
@@ -41,3 +40,14 @@ el for*/
   /*creando una función que asigne un valor a cada numero del
   arrayNumbersFiltered el numero que resulte de multiplicarlo por
   dos y sumar su dos digitos para despues sumar esos resultados*/
+
+
+     var turningToOneDigit = function(array){
+        var suma4 = [];
+       for(var l = 0; l < array.length; l++){
+         var separateDigits = array[l].toString().split('');
+         console.log(separateDigits);
+       }
+     }
+
+ turningToOneDigit(arrayNumbersFiltered);
