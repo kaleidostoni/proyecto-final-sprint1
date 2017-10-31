@@ -16,22 +16,20 @@ El usuario no debe poder ingresar un campo vacío
   3.1 El for debe empezar desde el 0 y aumentar de dos en dos
   3.2 guardar todos los numeros en posición non en una variable
   3.3 sumar todos los numeros de esa nueva variable de numeros en posición none
-4. En otro for separar los numeros en posición par
+4. En otro for separar los numeros en posición par m enosres  a 4
   4.1 el for debe iniciar desde 1 y aumentar de dos en dos
-  4.2 con un if separaremos los numeros de 0 a 4  y los numeros de 5 a 9
-  4.3 los numeros de vayan en el if seran los de 5 a 9
-  dentro usare otro if para ir asignando un valor a cada numero
-  4.4 delvolvere los resultados en una variable nueva
-  4.5 los numeros de 0 a 4 solo se multiplicaran por dos y los guardaremos en
-   una nueva variable
-5. Sumare los resultados de las tres variables en una nueva variable
-6. en una funcion is ValidCard pondre un if
-  6.1 dentro del if la tarjeta retornara  is valid si el numero de la suma es
-  multiplo de 10
-  6.2 para confirmar si el numero es multiplo de 10 usare el operador modulo %
-  6.3 si el resultado es == a 0 retornara "is valid"
-  6.4 de los contrario en el else retornara "is not valid"
-
+  4.2 sumarlos y multiplicarlos por dos en una variable nueva
+  4.3 sumar las dos variables en una suma total
+5. en otra funcion separamos con un for los numeros en index par mayores a 4  
+  5.1 guardarlos en una nueva variable y multiplicarlos por dos
+6. usando la variable de los numeros mayores a 4 separar con split cada digito
+y guardarlo en un arreglo nuevo
+7. por medio de un for ir sumando el primer y segundo digito del arreglo
+para volverlo en una cifra
+ 7.1 hacer la suma de todos los nuevos valores de una cifra
+ 8. hacer una función isValidCard
+  8.1 poner como condición que si la suma es modulo de 10 retorne que es Valida
+  8.2 else si no no es valida
 ## Diagrama de flujo
 
 ![diagrama-de-flujo](https://www.lucidchart.com/publicSegments/view/8e2e96ff-d35e-4296-a34a-c03beda443ce/image.png);
