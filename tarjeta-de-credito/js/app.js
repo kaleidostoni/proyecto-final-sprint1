@@ -38,7 +38,7 @@ se encuentren en index par si son menores a 4, los multiplique por 2 y
       }
     }return arrayNumbersFiltered;
   }
-
+  //llamando la función pairsBiggerThanFour
   pairsBiggerThanFour(reversedNumber);
 
 
@@ -54,5 +54,5 @@ se encuentren en index par si son menores a 4, los multiplique por 2 y
          console.log(separateDigits);
        }
      }
-
+  // llamando la función turningToOneDigit
  turningToOneDigit(pairsBiggerThanFour(reversedNumber));
